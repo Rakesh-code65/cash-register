@@ -1,9 +1,10 @@
 body{
-    
+    align-content: center;
+    a
 }
 .container{
     display: flex;
     flex-direction: column;
     width: 50vw;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }

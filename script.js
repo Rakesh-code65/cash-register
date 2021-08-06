@@ -1,12 +1,14 @@
 const billAmount = document.querySelector("#bill-Amount");
 const cashGiven = document.querySelector("#cash-given");
 const checkButton = document.querySelector("#check-button");
-const message = document.querySelector("#errormessage");
+const message = document.querySelector("#error-message");
 
-checkButton.addEventListener("click", functionvalidateBillandCashAmount(){
-   message.style.display = "none";
-    if(billAmount.value  > 0){
+checkButton.addEventListener("click", functionvalidateBillandCashAmount() {
+//    message.style.display = "none";
+   console.log(billAmount.value);
+    if(billAmount.value  > 0) {
                  if(cashGiven.value >= billAmount.value){
+
                      const amountToBeReturned = cashGiven.value - billAmount.value;
                      calculateChange(amountToBeReturned);
 
