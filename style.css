@@ -1,14 +1,26 @@
 body{
-    align-content: center;
+background-color: rgb(102, 49, 62);
+background: url(./image/old-1645813_1280.jpg);
 
 }
 .container{
-    pos
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    bottom: 20%;
+    left: 20%;
     display: flex;
     flex-direction: column;
     width: 50vw;
-    background-color: cadetblue;
+    background-color:coral;
+    text-align: center;
 }
 h1{
     color: crimson;
+}
+th{
+    float: left;;
+}
+td{
+    float:;
 }
