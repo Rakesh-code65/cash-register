@@ -1,19 +1,17 @@
 body{
-background-color: rgb(197, 12, 58);
-background: url(./image/old-1645813_1280.jpg);
+/* background-color: rgb(197, 12, 58); */
+
 margin: 0px;
 padding: 0px;
 
 }
 .container{
-    position: relative;
-    top: 20px;
-    right: 100x;
-    bottom: 150px;
-    left: 150px;
+   
     display: flex;
     flex-direction: column;
     width: 50vw;
+    margin: auto;
+    margin-top: 3rem;
     background-color: lightblue;
     text-align: center;
 }
@@ -25,10 +23,4 @@ h1{
     border: 1.5px solid yellow;
     border-collapse:collapse;
 
-}
-th{
-    /* float: left; */
-}
-td{
-    /* float:none; */
 }
